@@ -10,3 +10,20 @@ body, html{
     align-items: center;
     justify-content: center;
 }
+
+div{
+    width: 640px;
+    height: 360px;
+}
+
+#canvas1{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+#canvas2{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
